@@ -16,3 +16,7 @@ Docker Container to run and start go2rtc automatically
  ``sudo systemctl disable containerd.service``
 
 - If you need to add an HTTP proxy, set a different directory or partition for the Docker runtime files, or make other customizations, see customize your systemd Docker daemon options.
+
+-  When changing something in the docker-compose config, remeber to delete the old container
+
+#### Credits: https://github.com/AlexxIT/go2rtc
