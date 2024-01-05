@@ -31,7 +31,13 @@ rtsp:
 srtp:
   listen: ":8443"
 
-streams: {}
+streams: {
+# for tapo cam, 1080px 
+tapo_camera: rtsp://username:password@IP Address:554/stream1
+
+# for tapo cam. 360px
+# tapo_camera: username:password@IP Address:554/stream2
+}
 
 webrtc:
   listen: ":8555"
