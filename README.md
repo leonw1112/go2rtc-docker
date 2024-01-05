@@ -17,6 +17,6 @@ Docker Container to run and start go2rtc automatically
 
 - If you need to add an HTTP proxy, set a different directory or partition for the Docker runtime files, or make other customizations, see customize your systemd Docker daemon options.
 
--  When changing something in the docker-compose config, remember to delete the old container and change the credentials in the go2rtc.yaml, this is an example for the tapo cameras. see the credentials link for more information
+-  When changing something in the docker-compose config, remember to delete the old container and change the credentials in the go2rtc.yaml, this is an example for the tapo cameras. see the credit link below for more information.
 
 #### Credits: https://github.com/AlexxIT/go2rtc
