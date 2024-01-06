@@ -9,7 +9,7 @@ Docker Container to run and start go2rtc automatically
 
  ``sudo systemctl enable containerd.service``
 
-### To stop this behavior, use disable instead.
+### To stop this behavior, use disable instead
 
  ``sudo systemctl disable docker.service``
 
