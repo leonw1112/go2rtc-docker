@@ -18,7 +18,7 @@ hass:
 
 log:
   format: ""
-  level: "info"
+  level: "infoo"
 
 ngrok:
   command: ""

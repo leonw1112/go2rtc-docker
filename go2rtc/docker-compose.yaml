@@ -11,4 +11,4 @@ services:
     environment:
       - TZ=Europe/Vienna  # timezone in logs
     volumes:
-      - "~/Docker/go2rtc/config:/config"   # folder for go2rtc.yaml file (edit from WebUI)
+      - "/home/leon/Docker/go2rtc-docker/go2rtc/config:/config"   # folder for go2rtc.yaml file (edit from WebUI)
